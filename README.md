@@ -17,7 +17,7 @@ print(say_hello(users_name))
 
 Your jukebox should have four options: List, Play, Search, and Quit.
 
-1. Let's import the list of songs from the `songs.csv` file that is attached. It's a comma separated value file. This means that the each song title is separated by a comma. Write a function `import_songs` that returns an list of songs.
+1. Open jukebox.py
 
 2. First things first, give the user a menu of options.
 
@@ -39,5 +39,3 @@ out, you can refer to them by position so the user can just
 type play 1 and then you find the first song. (Hint, check
 out a method called each_with_index)
 
-Bonus:
-  * Get the songs to play!
